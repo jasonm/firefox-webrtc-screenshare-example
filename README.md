@@ -1,3 +1,5 @@
+See https://github.com/muaz-khan/Firefox-Extensions/issues/4 for reference.
+
 Generate a local cert so you can serve via HTTPS locally:
 
 ```bash
