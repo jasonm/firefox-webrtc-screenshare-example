@@ -29,8 +29,8 @@ getScreenId(function (error, sourceId, screen_constraints) {
         if (!!navigator.mozGetUserMedia) {
             callback(null, 'firefox', {
                 video: {
-                    mozMediaSource: 'window',
-                    mediaSource: 'window'
+                    mozMediaSource: 'screen',
+                    mediaSource: 'screen'
                 }
             });
             return;
